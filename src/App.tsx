@@ -501,8 +501,11 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <Computer className="h-8 w-8 text-blue-400" />
-                <span className="text-2xl font-bold">AguiarT.I</span>
+                <img 
+                  src="/LOGO.png" 
+                  alt="AguiarT.I Logo" 
+                  className="h-8 w-auto"
+                />
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Transformando negócios através de soluções tecnológicas inovadoras. Automação comercial e serviços de TI de qualidade.
