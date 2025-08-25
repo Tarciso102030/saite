@@ -15,9 +15,7 @@ import {
   Database,
   Cloud,
   Settings,
-  MessageCircle,
-  Facebook,
-  Instagram
+  MessageCircle
 } from 'lucide-react';
 import ContactForm from './components/ContactForm';
 
@@ -64,26 +62,6 @@ function App() {
                 alt="AguiarT.I Logo" 
                 className="h-16 w-auto"
               />
-              <div className="flex items-center space-x-3 ml-4">
-                <a 
-                  href="https://www.facebook.com/aguiartiad" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
-                  aria-label="Facebook da AguiarT.I"
-                >
-                  <Facebook className="h-5 w-5" />
-                </a>
-                <a 
-                  href="https://www.instagram.com/aguiar_ti/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-pink-600 transition-colors duration-200"
-                  aria-label="Instagram da AguiarT.I"
-                >
-                  <Instagram className="h-5 w-5" />
-                </a>
-              </div>
             </div>
             
             {/* Desktop Navigation */}
@@ -522,32 +500,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
-              <div className="flex items-center space-x-4 mb-4">
+              <div className="flex items-center space-x-2 mb-4">
                 <img 
                   src="/files_5363394-1752777948514-LOGO.png" 
                   alt="AguiarT.I Logo" 
                   className="h-12 w-auto"
                 />
-                <div className="flex items-center space-x-3">
-                  <a 
-                    href="https://www.facebook.com/aguiartiad" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
-                    aria-label="Facebook da AguiarT.I"
-                  >
-                    <Facebook className="h-5 w-5" />
-                  </a>
-                  <a 
-                    href="https://www.instagram.com/aguiar_ti/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-pink-400 transition-colors duration-200"
-                    aria-label="Instagram da AguiarT.I"
-                  >
-                    <Instagram className="h-5 w-5" />
-                  </a>
-                </div>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Transformando negócios através de soluções tecnológicas inovadoras. Automação comercial e serviços de TI de qualidade.
