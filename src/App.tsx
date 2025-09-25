@@ -233,7 +233,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Suporte Técnico</h3>
               <p className="text-gray-600 mb-6">
-                Manutenção preventiva e corretiva de computadores, redes e sistemas empresariais.
+                Manutenção preventiva e corretiva de computadores, redes e sistemas empresariais. Infraestrutura completa em segurança e alta disponibilidade para o seu sistema, Implantação completa em Redes e Servidores.
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
