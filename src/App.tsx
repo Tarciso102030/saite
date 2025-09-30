@@ -55,7 +55,7 @@ function App() {
       </button>
 
       {/* Header */}
-      <header className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+      <header className="fixed w-full top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-4">
@@ -69,7 +69,7 @@ function App() {
                   href="https://www.facebook.com/aguiartiad"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-full transition-all duration-200"
+                  className="p-2 text-blue-400 hover:text-blue-300 hover:bg-gray-800 rounded-full transition-all duration-200"
                   aria-label="Facebook da AguiarT.I"
                 >
                   <Facebook className="h-5 w-5" />
@@ -78,7 +78,7 @@ function App() {
                   href="https://www.instagram.com/aguiar_ti/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 text-pink-600 hover:text-pink-700 hover:bg-pink-50 rounded-full transition-all duration-200"
+                  className="p-2 text-pink-400 hover:text-pink-300 hover:bg-gray-800 rounded-full transition-all duration-200"
                   aria-label="Instagram da AguiarT.I"
                 >
                   <Instagram className="h-5 w-5" />
@@ -90,25 +90,25 @@ function App() {
             <nav className="hidden md:flex space-x-8">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 Início
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 Serviços
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 Sobre
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 Contato
               </button>
@@ -117,7 +117,7 @@ function App() {
             {/* Mobile menu button */}
             <button
               onClick={toggleMenu}
-              className="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-gray-100"
+              className="md:hidden p-2 rounded-md text-gray-300 hover:text-blue-400 hover:bg-gray-800"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -125,29 +125,29 @@ function App() {
 
           {/* Mobile Navigation */}
           {isMenuOpen && (
-            <nav className="md:hidden pb-4 border-t border-gray-100 mt-4 pt-4">
+            <nav className="md:hidden pb-4 border-t border-gray-700 mt-4 pt-4">
               <div className="flex flex-col space-y-2">
                 <button 
                   onClick={() => scrollToSection('home')}
-                  className="text-left py-2 px-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
                 >
                   Início
                 </button>
                 <button 
                   onClick={() => scrollToSection('services')}
-                  className="text-left py-2 px-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
                 >
                   Serviços
                 </button>
                 <button 
                   onClick={() => scrollToSection('about')}
-                  className="text-left py-2 px-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
                 >
                   Sobre
                 </button>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="text-left py-2 px-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
                 >
                   Contato
                 </button>
