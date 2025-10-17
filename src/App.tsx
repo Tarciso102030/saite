@@ -287,7 +287,7 @@ function App() {
                   Venda de Notebook, Computadores e Servidores
                  </li>
                 <li className="flex items-center gap-3">
-                  <CheckCircle className="h-6 w-6 text-green-500" />
+                  <CheckCircle className="h-7 w-7 text-green-500" />
                   Venda e implantação de Switches e Roteadores, como Mikrotik
                   </li>
                 <li className="flex items-center gap-2">
