@@ -288,7 +288,7 @@ function App() {
                  </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-12 w-12 text-green-500" />
-                  Venda e implantação de Switches e Roteadores,melhores fabricantes    mercado 
+                  Venda e implantação de Switches e Roteadores,melhores fabricantes do   mercado 
                   </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-6 w-6 text-green-500" />
