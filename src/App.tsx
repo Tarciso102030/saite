@@ -295,6 +295,12 @@ function App() {
                    MikroTik CRS125-24G-1S-2HnD-IN
 Switch Layer 3 com 24 portas Gigabit, suporte a VLAN e roteamento.
                   </li>
+                
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-12 w-12 text-green-500" />
+                   MikroTik CRS328-24P-4S+RM
+Switch gerenciável com PoE, 24 portas Gigabit, 4 portas SFP+ e roteamento.
+                  </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-6 w-6 text-green-500" />
                   Monitoramento 24/7
