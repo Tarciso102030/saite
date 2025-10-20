@@ -289,6 +289,11 @@ function App() {
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-12 w-12 text-green-500" />
                   Venda e implantação de Switches e Roteadores,melhores fabricantes do   mercado 
+                  <li className="flex items-center gap-2">
+                  <CheckCircle className="h-12 w-12 text-green-500" />
+                    Para pequenas e médias redes:
+MikroTik CRS125-24G-1S-2HnD-IN
+Switch Layer 3 com 24 portas Gigabit, suporte a VLAN e roteamento.
                   </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-6 w-6 text-green-500" />
