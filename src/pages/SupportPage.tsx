@@ -207,7 +207,7 @@ export default function SupportPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  Balanca Para Checkout e Balança atendimento Balcão 
+                  Balança para checkout e balança de atendimento (balcão)
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
