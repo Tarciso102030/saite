@@ -246,7 +246,7 @@ function App() {
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-8 w-8 text-green-500" />
-                  Venda e Manutenção de Balanças (para Checkouts e Balcão)
+                  Venda e Manutenção de Balanças (para Checkouts e Balcão
                 </li>
               </ul>
             </div>
