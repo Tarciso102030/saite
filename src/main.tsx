@@ -8,7 +8,7 @@ import './index.css';
 const Router = () => {
   const path = window.location.pathname;
   
-  if (path === '/support') {
+  if (path === '/support' || path === '/suporte') {
     return <SupportPage />;
   }
   

@@ -16,7 +16,8 @@ import {
   Cloud,
   Settings,
   Facebook,
-  Instagram
+  Instagram,
+  ExternalLink
 } from 'lucide-react';
 import ContactForm from './components/ContactForm';
 
@@ -152,9 +153,10 @@ function App() {
                   href="/support"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200 block"
+                  className="text-left py-2 px-3 text-gray-300 hover:text-blue-400 hover:bg-gray-800 rounded-md transition-colors duration-200 block flex items-center gap-2"
                 >
                   Suporte Técnico
+                  <ExternalLink className="h-4 w-4" />
                 </a>
                 <button 
                   onClick={() => scrollToSection('about')}

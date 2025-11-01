@@ -1,0 +1,6 @@
+# Netlify redirects
+/suporte /support 200
+/support /support 200
+
+# SPA fallback
+/* /index.html 200

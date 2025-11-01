@@ -131,8 +131,26 @@ export default function SupportTicketForm() {
         subject: formData.subject,
         description: formData.description,
         created_date: currentDate,
-        to_email: 'tarciso@aguiarti.com.br',
+        to_email: EMAIL_CONFIG.TO_EMAIL,
         reply_to: formData.email,
+        message: `CHAMADO TÉCNICO #${ticketId}
+
+DADOS DO CLIENTE:
+Nome: ${formData.name}
+Empresa: ${formData.company || 'Não informado'}
+E-mail: ${formData.email}
+Telefone: ${formData.phone}
+
+DETALHES DO CHAMADO:
+Prioridade: ${getPriorityText(formData.priority)}
+Categoria: ${formData.category || 'Não especificado'}
+Assunto: ${formData.subject}
+
+DESCRIÇÃO DO PROBLEMA:
+${formData.description}
+
+Data/Hora: ${currentDate}
+ID do Chamado: ${ticketId}`,
       };
 
       await emailjs.send(EMAIL_CONFIG.SERVICE_ID, EMAIL_CONFIG.TEMPLATE_ID, templateParams, EMAIL_CONFIG.PUBLIC_KEY);

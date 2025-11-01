@@ -19,14 +19,18 @@ import SupportTicketForm from '../components/SupportTicketForm';
 
 export default function SupportPage() {
   const openWhatsApp = () => {
-    const whatsappUrl = 'https://api.whatsapp.com/send?phone=5551996668646&text=Gostaria de saber mais sobre os serviços AguiarT.I';
+    const whatsappUrl = 'https://api.whatsapp.com/send?phone=5551996668646&text=Olá! Preciso de suporte técnico da AguiarT.I. Podem me ajudar?';
     window.open(whatsappUrl, '_blank');
   };
 
   const goBack = () => {
-    window.close();
-    // Fallback se window.close() não funcionar
-    window.history.back();
+    // Tentar fechar a aba se foi aberta via JavaScript
+    if (window.opener) {
+      window.close();
+    } else {
+      // Fallback: redirecionar para a página principal
+      window.location.href = '/';
+    }
   };
 
   return (
