@@ -348,7 +348,7 @@ function App() {
               </li>
                 <li className="flex items-start gap-3 group-hover:translate-x-2 transition-transform duration-300" style={{ transitionDelay: '250ms' }}>
                   <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    Proteja seus ativos com soluções confiáveis e eficientes
+                    Proteja seus ativos com soluções confiáveis e eficiente
               </li>
                 <li className="flex items-center gap-3 group-hover:translate-x-2 transition-transform duration-300" style={{ transitionDelay: '300ms' }}>
                   <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
